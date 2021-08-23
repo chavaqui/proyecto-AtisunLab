@@ -1,0 +1,81 @@
+
+h1{
+    color:white;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+nav{
+    background: silver;
+    padding: 10px;
+}
+
+main{
+    display: grid;
+    grid-template-columns:82% 18%;
+}
+
+section{
+    background-color: rgb(136, 196, 245);
+}
+
+aside{
+    float:right;
+    background-color: rgb(205, 248, 50);
+    background-size: cover;
+    font-style: italic;
+    font-weight: 600;
+    
+}
+ul li{
+    
+    padding: 12px;
+    list-style: none;
+}
+
+/*efectos  */
+@keyframes example {
+    0%   {background-color: rgb(230, 107, 107);}
+    25%  {background-color: rgb(224, 224, 127);}
+    50%  {background-color: rgb(122, 122, 228);}
+    100% {background-color: rgb(138, 240, 138);}
+  }
+  
+  /* The element to apply the animation to */
+  nav {
+    background-color: rgb(121, 124, 119);
+    
+  }
+
+  section{
+    
+    background-color: #e4e1e1;
+    font-weight: 500;   
+      
+  }
+
+  html{
+      background-image: url('bimg1.png');
+      
+
+  }
+  header{
+      margin: unset;
+    background-image: url('fade.png'); 
+  }
+
+  #quienes{
+    
+    height: 100px;
+    padding: 20px;
+    margin: 5px;
+    color: white;
+    background-image: url('study1.jpg'); 
+    font-weight: 800;
+    background-size:cover;
+    text-align:center;
+    
+}
